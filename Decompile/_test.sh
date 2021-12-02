@@ -1,7 +1,5 @@
-# ./Game && exit
-# rm -rf Data Unpack
-# unzip -q Data.zip
-ruby UnpackScripts.rb
-ruby UnpackObjects.rb
-ruby RepackScripts.rb
+cd ..
+ruby Decompile/UnpackScripts.rb
+ruby Decompile/UnpackObjects.rb
+ruby Decompile/RepackObjects.rb
 ./Game
